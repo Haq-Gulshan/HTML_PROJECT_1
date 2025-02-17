@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(188, 224, 134);
+}
+
+h1 {
+  color: black;
+  font-family: "Nerko One", cursive;
+  font-size: 60px;
+  text-align: center;
+}
+
+#title {
+  color: black;
+  text-align: left;
+  font-size: 40px;
+  margin: 50px;
+}
+#container {
+  display: flex;
+}
+p {
+  text-align: center;
+  color: rgb(2, 0, 1);
+  font-family: "Nerko One", cursive;
+  border: 10px dotted black;
+  border-radius: 30px;
+  max-width: 1700px;
+  max-height: 800px;
+  margin: 50px;
+  padding: 80px;
+  font-size: 30px;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.text {
+  display: flex;
+  margin: 50px;
+  padding: 80px;
+  align-items: center;
+}
+.image {
+  margin: 100px;
+}
+
+#white-kitty {
+  border-radius: 50px;
+  width: 430px;
+  height: 550px;
+  margin: 30px;
+  border: 12px double rgb(23, 21, 21);
+}
+
+#white-kitty:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 0 20px rgb(194, 192, 192);
+}
+button {
+  width: 250px;
+  height: 70px;
+  border-radius: 30px;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border: 5px dotted whitesmoke;
+  margin-bottom: 50px;
+}
+
+.text-2 {
+  font-size: 25px;
+  color: rgb(22, 23, 21);
+  padding: 50px;
+  margin: 50px;
+  margin-bottom: 20px;
+}
